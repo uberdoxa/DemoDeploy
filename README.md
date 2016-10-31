@@ -3,7 +3,7 @@
 ## Fork The Repo
 
 - Go to https://github.com/heidipowers/DemoDeploy and fork this repository to your personal github.
-- Go to the new forked repo in YOUR github acct and clone your version of the Deploy repo.
+- Go to the new forked repo in **YOUR** github account and clone **YOUR** version of the DemoDeploy repo.
 
 ## Clone The Repo
 
@@ -28,11 +28,15 @@ Github lets you choose which branch hosts your gitHub pages. We're going to set 
 - Go back to your terminal. Make sure your file path is still inside your code/DemoDeploy folder.
 - Type subl . to open your files (or whatever the command is for your text editor).
 - Update your index.html by putting your name in the ```title``` tag. Save, add, commit, and push to origin master.
-- Return to the browser window -- the gitHub settings page should still be there, go back the the  **gitHub Pages** section and look for a green bar at the top that says, "Your site is published at:....". Click the link, or copy to a new window.
+- Return to the browser window -- the gitHub settings page should still be there. Scroll to the the  **gitHub Pages** section and look for a green bar at the top that says, "Your site is published at:....". Click the link, or copy to a new window.
+- If you did everything correct, your page will now be visible, with the title of your name.
+- Celebrate!
+
+*Don’t worry if it takes a few minutes for the page to show up because there may be a delay up to ten minutes the first time you push the files to GitHub.*
 
 ## Documentation
 
-https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
-https://help.github.com/articles/troubleshooting-github-pages-builds/
+[gitHub Pages Documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+[gitHub Pages Help](https://help.github.com/articles/troubleshooting-github-pages-builds/)
 
-Don’t worry if it takes a few minutes for the page to show up because there may be a delay up to ten minutes the first time you push the files to GitHub.
+
