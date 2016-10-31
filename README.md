@@ -3,17 +3,17 @@
 ## Fork The Repo
 
 - Go to https://github.com/heidipowers/DemoDeploy and fork this repository to your personal github.
-- Go to the new forked repo in **YOUR** github account and clone **YOUR** version of the DemoDeploy repo.
+- The forked repo will open in **your** github account.  Clone **your** version of the DemoDeploy repo.
 - Celebrate!
 
 ![](https://media.giphy.com/media/xeXEpUVvAxCV2/giphy.gif)
 
 ## Clone The Repo
 
-- In your terminal, navigate to your code folder and ```cd```git into it. **DO NOT GO INTO YOUR WDI FOLDER!**
+- In your terminal, navigate to your code folder and ```cd```git into it. **DO NOT CD INTO YOUR WDI FOLDER!**
 - Once inside your code folder (**NOT WDI**), type ``git clone`` and then paste the SSH code you copied from github. Hit Enter.
 - In your terminal, type ```ls``` and make sure the DemoDeploy folder is listed, then ```cd``` into it.
-- Once inside your DemoDeploy folder, you should see that you are on the master branch and all the files from the cloned repo are inside the folder.
+- Once inside your DemoDeploy folder, you should see that you are on the master branch and all the files from the cloned repo are inside the folder due to the magic of the internet.
 - Celebrate!
 
 ![](https://media.giphy.com/media/d86kftzaeizO8/giphy.gif)
