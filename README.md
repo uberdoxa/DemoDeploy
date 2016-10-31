@@ -31,12 +31,13 @@ Github lets you choose which branch hosts your gitHub pages. We're going to set 
 - Return to the browser window -- the gitHub settings page should still be there. Scroll to the the  **gitHub Pages** section and look for a green bar at the top that says, "Your site is published at:....". Click the link, or copy to a new window.
 - If you did everything correct, your page will now be visible, with the title of your name.
 - Celebrate!
+[http://reactiongifs.me/wp-content/uploads/2013/09/anchorman-yes-jumping.gif]
 
 *Don’t worry if it takes a few minutes for the page to show up because there may be a delay up to ten minutes the first time you push the files to GitHub.*
 
 ## Documentation
 
-[gitHub Pages Documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
-[gitHub Pages Help](https://help.github.com/articles/troubleshooting-github-pages-builds/)
+- [gitHub Pages Documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- [gitHub Pages Help](https://help.github.com/articles/troubleshooting-github-pages-builds/)
 
 
