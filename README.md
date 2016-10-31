@@ -23,9 +23,9 @@
 Github lets you choose which branch hosts your gitHub pages. We're going to set our source to the master branch.
 
 - Go back to your github account in the Browser and enter your DemoDeploy repo.
-- Inside the DemoDeploy repo, click **SETTINGS** from the top menu tabs on the right.
-- You are now automatically located in the **OPTIONS** part of Settings (you can see the side menu to the left). Scroll down the page until you come the section titled, **gitHub Pages**.
-- From the **SOURCE** dropdown, choose the master branch option and hit save.
+- Inside the DemoDeploy repo, click **Settings** from the top menu tabs on the right.
+- You are now automatically located in the **Options** part of Settings (you can see the side menu to the left). Scroll down the page until you come the section titled, **gitHub Pages**.
+- From the **Source** dropdown, choose the master branch option and hit **save**.
 - Celebrate!
 
 ![](https://media.tenor.co/images/5ed913a94b7001d872ff2a6925fc26b4/tenor.gif)
@@ -35,7 +35,8 @@ Github lets you choose which branch hosts your gitHub pages. We're going to set 
 - Go back to your terminal. Make sure your file path is still inside your code/DemoDeploy folder.
 - Type subl . to open your files (or whatever the command is for your text editor).
 - Update your index.html by putting your name in the ```title``` tag. Save, add, commit, and push to origin master.
-- Return to the browser window -- the gitHub settings page should still be there. Scroll to the the  **gitHub Pages** section and look for a green bar at the top that says, "Your site is published at:....". Click the link, or copy to a new window.
+- Return to the browser window -- the gitHub settings page should still be there. Refresh the page.
+- Scroll back to the the  **gitHub Pages** section and look for a green bar at the top of the section that says, "Your site is published at:....". Click the link, or copy to a new window.
 - If you did everything correct, your page will now be visible, with the title of your name.
 - Celebrate!
 
