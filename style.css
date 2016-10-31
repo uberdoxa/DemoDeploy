@@ -1,5 +1,101 @@
-div{
-  height: 200px;
-  width: 200px;
-  background-color: rebeccapurple
+body {
+  background-color: #efefef;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  position: relative;
+}
+
+p {
+  font-size: 2em;
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 2em;
+  color: violet;
+}
+
+nav li a {
+  color: purple;
+}
+
+.triangle {
+  transform: rotate(45deg);
+  background-color: violet;
+  height: 50px;
+  width: 50px;
+  position:fixed;
+  left: 50%;
+  top: 5%;
+  z-index: 1;
+  border: 8px solid #333;
+
+}
+
+
+.contain {
+  width: 72em;
+  margin: 0 auto;
+}
+
+.into {
+  color: white;
+  text-align: center;
+  min-height: 400px;
+  padding-top: 4em;
+  background-color: #404040;
+}
+
+.work {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  padding: 2em;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin-top: 3em;
+}
+
+.overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.bottom {
+  background-image: url('http://www.travelandleisure.com/sites/default/files/styles/1600x1000/public/1436898484/LARSENS0715-fish-market.jpg?itok=qhGC4hK5');
+  height: 100vh;
+  position: relative;
+}
+
+.blurb {
+ position: absolute;
+ width: 200px;
+ height: auto;
+ right: 75%;
+ bottom: 50%;
+
+}
+

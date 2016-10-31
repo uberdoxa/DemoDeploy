@@ -18,9 +18,9 @@
 
 ![](https://media.giphy.com/media/d86kftzaeizO8/giphy.gif)
 
-## Tell Github Your gitHub Pages Source
+## Tell GitHub Your gitHub Pages Source
 
-Github lets you choose which branch hosts your gitHub pages. We're going to set our source to the master branch.
+GitHub lets you choose which branch hosts your gitHub pages. We're going to set our source to the master branch.
 
 - Go back to your github account in the Browser and enter your DemoDeploy repo.
 - Inside the DemoDeploy repo, click **Settings** from the top menu tabs on the right.
