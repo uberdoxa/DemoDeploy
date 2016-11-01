@@ -7,6 +7,8 @@
     <title>DemoDeploy</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300|Raleway:400,700,100,200' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -14,21 +16,23 @@
         <div class="triangle"></div>
         <nav>
             <ul>
-                <li>Deployment</li>
-                <li>Agile</li>
-                <li>MVP</li>
-                <li>Wireframes</li>
-                <li>UserFlow</li>
+                <li><a href="">Deployment</a></li>
+                <li><a href="#agile">Agile</a></li>
+                <li><a href="#mvp">MVP</a></li>
+                <li><a href="#user-stories">User Stories</a></li>
+                <li><a href="#wireframes">Wireframes</a></li>
+                <li><a href="#user-flow">UserFlow</a></li>
+                <li><a href="#trello">User Stories</a></li>
             </ul>
         </nav>
     </header>
     <section class="into">
         <div class="contain">
             <h1>Let's Create Some Projects!</h1>
-            <p>Yo X-Files, let's do this, and do it right. Coding is more than some files we package up and send to gitHub. There's an entire process of thinking and a methodology that help us create while allowing others participate in our cool stuff. Word.</p>
+            <h3 class="header-intro">Yo X-Files, let's do this, and do it right. Coding is more than some files we package up and send to gitHub. There's an entire process of thinking and a methodology that help us create while allowing others participate in our cool stuff. Word.</h3>
         </div>
     </section>
-    <section class="educate">
+    <section id="agile" class="educate">
         <div class="contain">
             <h2>Agile Development</h2>
             <p>Agile is a time boxed, flexible approach to development that builds incrementally from the start of the project, instead of trying to deliver it all at once near the end. It works by breaking projects down into little bits of user functionality called user stories, prioritizing them, and then continuously delivering them in short cycles called iterations, or sprints.</p>
@@ -41,62 +45,92 @@
                 <li>Deploy the system</li>
             </ul>
             <p> Software is complex. People are complex. And the only thing that’s certain in projects is change. Agile principles, when they are correctly implemented, help us navigate those troubled waters.</p>
-            <p>Test early and test often...the truth is out there.</p>
+            <p class="special">Test early and test often...the truth is out there.</p>
         </div>
     </section>
-    <section class="educate">
+    <section id="mvp" class="educate">
         <div class="contain">
             <h2>MVP</h2>
             <p>Minimal Viable Product Minimal Viable Product, or MVP, is essentially the bare bones of a project. It is all of the features and functionality that are required in order to deliver a product that meets its purpose. In our case, does your project meet all the requirements of the prompt?</p>
             <p>When you build a product, you make many assumptions. You assume you know what users are looking for, how the design should work, what marketing strategy to use, what architecture will work most efficiently, which monetization strategy will make it sustainable, and which laws and regulations you have to comply with. No matter how good you are, some of your assumptions will be wrong. The problem is, you don’t know which ones. Test early, test often.</p>
             <p>Set reach goals, this is what you will do after you have a MVP to take your project to the next level.</p>
-            <p><span class="danger">Danger Zone:</span> 90% of the users only use 10% of the features. It's a cautionary tale of feature creep...</p>
+            <p class="special">Danger Zone: 90% of the users only use 10% of the features. It's a cautionary tale of feature creep...</p>
         </div>
     </section>
-    <section class="educate">
+    <section id="user-stories" class="educate">
         <div class="contain">
             <h2>User Stories</h2>
             <p>In an agile framework, user stories are the smallest units of work. The goal of a user story is to deliver a particular value back to the customer. Note that "customers" don't have to be external end users in the traditional sense: they can also be internal customers, colleagues, or classmates who will be using your product. User stories are a few sentences in simple language that outline the desired outcome. They don't go into detailed requirements.</p>
             <p>User stories are often written using the following template:</p>
-            <p>As a <em>&lt;type of user&gt;</em>, I want <em>&lt;goal&gt;</em> so that I <em>&lt;receive benefit&gt;</em>.</p>
+            <p class="special">As a <em>&lt;type of user&gt;</em>, I want <em>&lt;goal&gt;</em> so that I <em>&lt;receive benefit&gt;</em>.</p>
             <p>Let's use a website as a simple example to create a user story:</p>
-            <p>As a visitor, I want to be access this game on the internet so I can kill time and avoid interacting with people.</p>
+            <p class="special">As a visitor, I want to be access this game on the internet so I can kill time and avoid interacting with people.</p>
         </div>
     </section>
-    <section class="educate">
+    <section id="wireframes" class="educate">
         <div class="contain">
             <h2>WireFrames</h2>
             <p>Wireframing is an important step in any screen design process. It primarily allows you to define the information hierarchy of your design, making it easier for you to plan the layout according to how you want your user to process the information.</p>
             <p>Wireframing allows you to plan the layout and interaction of an interface without being distracted by colors, typeface choices or even copy. You can't start building pixel layers in photoshop, or writing blocks of code, without knowing where the information is going to go. At a deeper level, a wireframe is also very useful in determining how the user interacts with the interface. For example, wireframes can contain various states of button or menu behaviors.</p>
-            <p>The Idea. The Information. The Interaction. Easy Peasy Lemon Squeezy.</p>
+            <p class="special">The Idea. The Information. The Interaction. Easy Peasy Lemon Squeezy.</p>
         </div>
     </section>
-    <section class="educate">
+    <section id="user-flow" class="educate">
         <div class="contain">
             <h2>User Flow</h2>
-            <p>Ah yes, everything will flow...thank you Brett Anderson.</p>
             <p>User flow is the path a user follows through your app/website to complete a task such as creating an account, sending a form, or even clicking through a series of buttons. It helps us as developers understand how the system interacts with user behavior. Basically, it's how we navigate from point A to point B, and the tools we may interact with along the way.</p>
-
+            <p class="special">Ah yes, everything will flow...thank you Brett Anderson.</p>
         </div>
     </section>
-    <section class="educate">
+    <section id="trello" class="educate">
         <div class="contain">
             <h2>Trello</h2>
-            <p>Trello is a collaboration tool that organizes your projects into boards. In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process. If you don't have an account already, sign up for one this minute and get Trelloing. What makes Trello so awesome, well Taco of course!</p>
-
+            <p>Trello is a collaboration tool that organizes your projects into boards. In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process. If you don't have an account already, sign up for one this minute and get Trelloing.
+            <p class="trello">What makes Trello so awesome, well Taco of course!</p>
         </div>
     </section>
-    <section class="work">
+    <section id="work">
         <div class="contain">
-            <img src="http://placehold.it/300x300/505050" />
-            <img src="http://placehold.it/300x300/404040" />
-            <img src="http://placehold.it/300x300/303030" />
-            <img src="http://placehold.it/300x300/202020" />
-            <img src="http://placehold.it/300x300/101010" />
-            <img src="http://placehold.it/300x300/000000" />
+            <div class="work">
+                <img src="images/brettAndBowie.jpg" />
+                <a class="text" href="https://en.wikipedia.org/wiki/Brett_Anderson">
+                    <p>Brett and Bowie.</p>
+                </a>
+            </div>
+            <div class="work">
+                <img src="images/wireframe.jpg" />
+                <a class="text" href="https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399">
+                    <p>Wireframes are fun!</p>
+                </a>
+            </div>
+            <div class="work">
+                <img src="images/userflow.jpg" />
+                <a class="text" href="https://www.smartdraw.com/flowchart/flowchart-symbols.html">
+                    <p>Everything will flow. I promise.</p>
+                </a>
+            </div>
+            <div class="work">
+                <img src="http://placehold.it/300x300/202020" />
+                <a class="text" href="http://placehold.it/">
+                    <p>No placeholding kittens here...</p>
+                </a>
+            </div>
+            <div class="work">
+                <img src="images/markdown.jpg" />
+                <a class="text" href="https://blog.ghost.org/markdown/">
+                    <p>Marky Markdown</p>
+                </a>
+            </div>
+            <div class="work">
+                <img src="images/taco.jpg" />
+                <a class="text" href="https://trello.com/tour">
+                    <p>Did someone say Taco?</p>
+                </a>
+            </div>
         </div>
     </section>
     <section class="bottom">
+     <a href="http://slides.com/jaredmurphy/agile#">
         <div class="overlay">
             <div class="contain">
                 <div class="blurb">
@@ -104,6 +138,7 @@
                 </div>
             </div>
         </div>
+    </a>
     </section>
 </body>
 

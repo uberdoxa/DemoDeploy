@@ -1,102 +1,156 @@
 body {
-  background-color: #efefef;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
-  padding: 0;
+    background-color: #efefef;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
-  position: relative;
+    position: relative;
+}
+
+.header-intro {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.special {
+    color: #000;
+    font-weight: 700;
 }
 
 p {
-  font-size: 1.2em;
+    font-size: 1.2em;
+    color: #333;
+}
+
+h3 {
+  f
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    width: 25%;
+    padding-bottom: 10px;
 }
 
 nav {
-  text-align: center;
-  background-color: #333;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+    text-align: center;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 nav li {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 1em;
-  padding: 2em;
-  color: violet;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 2em;
+    color: violet;
 }
 
 nav li a {
-  color: purple;
+    color: violet;
+}
+
+nav li a:hover {
+    color: purple;
 }
 
 .triangle {
-  transform: rotate(45deg);
-  background-color: violet;
-  height: 50px;
-  width: 50px;
-  position:fixed;
-  left: 50%;
-  top: 12%;
-  z-index: 1;
-  border: 8px solid #333;
-
+    transform: rotate(45deg);
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: 50%;
+    top: 12%;
+    z-index: 1;
 }
 
-
 .contain {
-  width: 72em;
-  margin: 0 auto;
+    width: 72em;
+    margin: 0 auto;
 }
 
 .into {
-  color: white;
-  text-align: center;
-  min-height: 400px;
-  padding-top: 4em;
-  background-color: #404040;
+    color: white;
+    text-align: center;
+    min-height: 400px;
+    padding-top: 7em;
+    background-color: #404040;
 }
 
 .work {
-  margin: 0 auto;
-  text-align: center;
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+
+#work {
+    margin: 4em 0 0 0;
+    background-color:  #dcdcdc;
+    padding-top: 2em;
 }
 
 img {
-  padding: 2em;
+    width: 31%;
+    margin-bottom: 1em;
+    padding: 1%;
 }
 
 img:hover {
-  opacity: .5;
+    opacity: .5;
 }
 
-
 h1 {
-  font-size: 2em;
-  margin-top: 3em;
+    font-size: 2em;
+    margin-top: 3em;
 }
 
 .overlay {
-  height: 100vh;
-  background-color: rgba(0, 0, 0, .8);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .bottom {
-  background-image: url('http://edge.alluremedia.com.au/m/g/2016/01/McaqAEX_2.jpg');
-  height: 100vh;
-  position: relative;
-  background-size: cover;
+    background-image: url('http://edge.alluremedia.com.au/m/g/2016/01/McaqAEX_2.jpg');
+    height: 100vh;
+    position: relative;
+    background-size: cover;
 }
 
-.blurb {
- position: absolute;
- width: 200px;
- height: auto;
- right: 75%;
- bottom: 50%;
-
+.educate {
+    margin-top: -6em;
+    padding-top: 8em;
 }
 
+.blurb img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    right: 20%;
+    top: 2%;
+}
+
+.text {
+    position: absolute;
+    bottom: 51px;
+    left: 1em;
+    display: none;
+    background: rgba(0, 0, 0, .8);
+    width: 91%;
+}
+
+.text p {
+    color: violet;
+}
+
+.text p:hover {
+    color: purple;
+}
