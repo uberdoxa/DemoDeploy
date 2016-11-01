@@ -85,9 +85,10 @@ h1 {
 }
 
 .bottom {
-  background-image: url('http://www.travelandleisure.com/sites/default/files/styles/1600x1000/public/1436898484/LARSENS0715-fish-market.jpg?itok=qhGC4hK5');
+  background-image: url('http://edge.alluremedia.com.au/m/g/2016/01/McaqAEX_2.jpg');
   height: 100vh;
   position: relative;
+  background-size: cover;
 }
 
 .blurb {
