@@ -44,6 +44,10 @@ GitHub lets you choose which branch hosts your gitHub pages. We're going to set 
 
 ![](http://reactiongifs.me/wp-content/uploads/2013/09/anchorman-yes-jumping.gif)
 
+## Special Thanks
+
+This project would not have been possible without the hard work and dedication of [Trevor Preston](https://github.com/trevorpreston) who created the very first Demo Deploy. Purple-Rain-4eva.
+
 
 ## Documentation
 
