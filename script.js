@@ -11,7 +11,7 @@ $(document).ready(function() {
     );
 
 
-    //Thanks CSS tricks!
+    //Thanks Chris Coyier! http://codepen.io/chriscoyier/pen/dpBMVP
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
